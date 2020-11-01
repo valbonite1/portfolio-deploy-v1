@@ -14,6 +14,7 @@ function App() {
     <Router>
       <div>
         <Navbar />
+        <HeroSection />
         <Route render={({location}) => (
           <TransitionGroup>
           <CSSTransition
